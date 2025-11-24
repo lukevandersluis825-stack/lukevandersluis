@@ -7,3 +7,6 @@ hours = input("How many hours did you study today? ")
 hours = float(hours)
 weekly_hours = hours * 7
 
+# Display the result in a clear, readable format
+print(f"You are on track to study {weekly_hours:.2f} hours this week.")
+
